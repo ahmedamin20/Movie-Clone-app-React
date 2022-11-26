@@ -16,7 +16,7 @@ const Card = ({ movie }) => {
     <>
       {isLoading ? (
         <div className="cards">
-          <SkeletonTheme color="#F5F5F5" highLightColor="#4444">
+          <SkeletonTheme color="#000000" highLightColor="#6b6b6b44">
             <Skeleton
               height={300}
               duration={2}

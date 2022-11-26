@@ -13,7 +13,7 @@ function App() {
           <Route index element={<Home />}></Route>
           <Route path="movie/:id" element={<Movie />}></Route>
           <Route path="movies/:type" element={<MovieList />}></Route>
-          <Route path="/*" element={<h1>Error Page</h1>}></Route>
+          <Route path="/*" element={<h1 style={{ margin: "1rem ", textAlign: "center" }}>Error Page!!<br /><br />Sorry Page Not found</h1>}></Route>
         </Routes>
       </Router>
     </div >

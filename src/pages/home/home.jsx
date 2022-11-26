@@ -20,7 +20,7 @@ const Home = () => {
         <Carousel
           showThumbs={false}
           autoPlay={true}
-          transitionTime={3}
+          transitionTime={2}
           infiniteLoop={true}
           showStatus={false}
         >
@@ -34,7 +34,7 @@ const Home = () => {
                   src={`https://image.tmdb.org/t/p/original${
                     movie && movie.backdrop_path
                   }`}
-                  alt=""
+                  alt="NO imge"
                 />
               </div>
               <div className="posterImage__overlay">
